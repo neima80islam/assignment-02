@@ -303,7 +303,7 @@ ul li  a:hover{
    }
    .card button{
     /* width: 170px; */
-    padding: 8px 40px;
+    padding: 8px 30px;
     font-size: 16px;
    }
 
@@ -317,9 +317,8 @@ ul li  a:hover{
     width: 100%;
    }
    .love-section-text h2{
-     font-size: 40px;
-     margin-top: 20px;
-     padding: 0 50px;
+     font-size: 30px;
+     margin: 20px 60px ;
      
    }
    .love-section-text ul li{
@@ -337,7 +336,10 @@ ul li  a:hover{
     font-size: 40px;
    }
    .input input{
-    padding: 8px 40px;
+    padding: 8px 20px;
+   }
+   .Latest-Deals h2{
+    font-size: 40px;
    }
 
  .Trusted-Plant-Lover{
@@ -346,17 +348,17 @@ ul li  a:hover{
    
  }
  .imge{
-    width:100vh;
-    height: 50vh;
+    width: 65vh;
+    height: 30vh;
     margin-left: 0px;
  }
  .img{
-    width:100vh;
-    height: 50vh;
+    width: 65vh;
+    height: 30vh;
  }
   .imges{
-    width:100vh;
-    height: 50vh;
+    width: 65vh;
+    height: 30vh;
     padding: 50px 0;
  } 
  .imges h2{
