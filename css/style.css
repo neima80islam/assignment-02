@@ -304,7 +304,7 @@ ul li  a:hover{
    .card button{
     /* width: 170px; */
     padding: 8px 30px;
-    font-size: 16px;
+    font-size: 12px;
    }
 
    .over-img{
@@ -317,8 +317,8 @@ ul li  a:hover{
     width: 100%;
    }
    .love-section-text h2{
-     font-size: 30px;
-     margin: 20px 60px ;
+     font-size: 25px;
+     margin: 20px 80px ;
      
    }
    .love-section-text ul li{
@@ -348,16 +348,16 @@ ul li  a:hover{
    
  }
  .imge{
-    width: 65vh;
+    width: 50vh;
     height: 30vh;
     margin-left: 0px;
  }
  .img{
-    width: 65vh;
+    width: 50vh;
     height: 30vh;
  }
   .imges{
-    width: 65vh;
+    width: 50vh;
     height: 30vh;
     padding: 50px 0;
  } 
