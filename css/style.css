@@ -6,6 +6,9 @@
     box-sizing: border-box;
 
 }
+.div{
+    width: 100%;
+}
 .website{
     width: 1100px;
     margin: 0 auto;
@@ -274,10 +277,6 @@ ul li  a:hover{
         width: 100%;
         padding: 40px;
     }
-    /* .navber{
-        width: 100%;
-        margin: 0 auto;
-    } */
     .nav-list ul li{
         display: none;
     }
@@ -290,9 +289,9 @@ ul li  a:hover{
         margin-top: 50px;
     }
     
-    .banner-img{
-     width: 100%;
-   }
+    .banner-img img{
+        width: 100%;
+    }
    .plants-card{
     grid-template-columns: repeat(2, 1fr);
    }
@@ -300,11 +299,11 @@ ul li  a:hover{
     width: 100%
    }
    .card img{
-    width: 220px;
+    width: 100%;
    }
    .card button{
     /* width: 170px; */
-    padding: 10px 50px;
+    padding: 8px 40px;
     font-size: 16px;
    }
 
@@ -314,19 +313,24 @@ ul li  a:hover{
    .love-section{
     flex-direction: column;
    }
+   .love-section-img img{
+    width: 100%;
+   }
    .love-section-text h2{
-     font-size: 30px;
+     font-size: 40px;
      margin-top: 20px;
-     margin-left: 20px;
+     padding: 0 50px;
+     
    }
    .love-section-text ul li{
+    width: 60%;
     font-size: 18px;
-    margin-left: 50px;
+    margin: 0 auto ;
    }
 
    .Join-Section{
     padding: 50px 0;
-    width:100vw;
+    width: 100%;
     
    }
    .Join-Section h2{
@@ -335,29 +339,39 @@ ul li  a:hover{
    .input input{
     padding: 8px 40px;
    }
-   .footer-section{
-     flex-direction: column;
-   }
- .footer-icon{
-    margin-top: 40px;
- }
 
  .Trusted-Plant-Lover{
-    grid-template-columns: repeat(1, 1fr);
+ grid-template-columns: repeat(1, 1fr);
+ margin: 50px 0;
    
  }
- .imges{
-    /* grid-row: span 0; */
-    width: 50vh;
-    height: 30vh;
-    padding: 50px 0;
+ .imge{
+    width:100vh;
+    height: 50vh;
+    margin-left: 0px;
  }
+ .img{
+    width:100vh;
+    height: 50vh;
+ }
+  .imges{
+    width:100vh;
+    height: 50vh;
+    padding: 50px 0;
+ } 
  .imges h2{
     font-size: 26px;
  }
  .imge a, .img a, .imges a{
     font-size: 1em;
  }
+ .footer-section{
+    flex-direction: column;
+ }
+ .footer-icon img{
+    margin-top: 30px;
+ }
+
  }
  @media screen and (min-width:577px) and (max-width:992px){
     .website {
